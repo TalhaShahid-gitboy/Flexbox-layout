@@ -1,0 +1,76 @@
+*{
+    margin: 10px;
+    padding: 0px;
+}
+#header{
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+#navbar{
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 5px;
+}
+.maincontact{
+    display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+  justify-content: center;
+  text-align: 50% center;
+  align-items: ;
+  
+  
+}
+.maincontact .main{
+    background-color: lightgray;
+    text-align: center;
+    height: 395px;
+    width: 64.7%;
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    top: 90%;
+    transform: translate(0%);
+    justify-content: center;
+    text-align: 50% center;
+    flex-direction: column;
+    
+}
+.maincontact .leftcontact {
+    background-color: lightgray;
+    text-align: center;
+    height: 401px;
+    width: 15%;
+    padding: 7px;
+    margin: 5px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    text-align: 50% center;
+    flex-direction: column;
+}
+.maincontact .Rightcontact{
+    background-color: lightgray;
+    text-align: center;
+    height: 401px;
+    width: 15%;
+    padding: 7px;
+    margin: 5px;
+    display: flex;
+    float: right;
+    justify-content: center;
+    text-align: 50% center;
+    flex-direction: column;
+
+}
+
+
+#footer{
+    background-color: lightgray;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
